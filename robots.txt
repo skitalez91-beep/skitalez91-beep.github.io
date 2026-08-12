@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://skitalez91-beep.github.io/master-murino/sitemap.xml
