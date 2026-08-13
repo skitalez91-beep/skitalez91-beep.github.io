@@ -9,15 +9,13 @@
 
     <meta name="description" content="Ремонт бытовой техники в Мурино с выездом мастера. Ремонт холодильников, стиральных машин, плит, духовок и другой техники. Электрика, сантехника и мастер на час. Заявка в Telegram или по телефону.">
 
-    <meta name="keywords" content="ремонт бытовой техники Мурино, мастер Мурино, ремонт холодильников Мурино, ремонт стиральных машин Мурино, ремонт плит Мурино, ремонт духовок Мурино, мастер на час Мурино, электрик Мурино, сантехник Мурино">
-
     <meta name="robots" content="index, follow">
 
     <link rel="canonical" href="https://skitalez91-beep.github.io/">
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Ремонт бытовой техники и мастер на час в Мурино — Мастер Мурино">
-    <meta property="og:description" content="Ремонт бытовой техники и бытовые услуги в Мурино с выездом мастера. Заявка по телефону или через Telegram.">
+    <meta property="og:description" content="Ремонт бытовой техники и бытовые услуги в Мурино с выездом мастера.">
     <meta property="og:url" content="https://skitalez91-beep.github.io/">
     <meta property="og:site_name" content="Мастер Мурино">
 
@@ -63,6 +61,10 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
@@ -104,7 +106,7 @@
 
         .hero {
             background: white;
-            padding: 70px 20px;
+            padding: 75px 20px;
             text-align: center;
         }
 
@@ -116,7 +118,7 @@
         }
 
         .hero p {
-            max-width: 750px;
+            max-width: 800px;
             margin: 0 auto 30px;
             font-size: 20px;
             color: #555;
@@ -152,6 +154,50 @@
             margin-bottom: 35px;
         }
 
+        /* SEO-страницы */
+
+        .seo-pages {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            max-width: 950px;
+            margin: 0 auto;
+        }
+
+        .seo-card {
+            display: flex;
+            flex-direction: column;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 3px 18px rgba(0,0,0,0.08);
+        }
+
+        .seo-card h3 {
+            margin-top: 0;
+            font-size: 23px;
+        }
+
+        .seo-card p {
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .seo-link {
+            margin-top: auto;
+            display: inline-block;
+            color: #168aad;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .seo-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Основные услуги */
+
         .services {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -178,17 +224,19 @@
             color: #555;
         }
 
-        .service-link {
-            display: inline-block;
-            margin-top: 10px;
-            color: #168aad;
-            font-weight: bold;
-            text-decoration: none;
+        /* Текст */
+
+        .text {
+            max-width: 900px;
+            margin: 0 auto;
         }
 
-        .service-link:hover {
-            text-decoration: underline;
+        .text p {
+            font-size: 18px;
+            color: #444;
         }
+
+        /* Преимущества */
 
         .advantages {
             max-width: 800px;
@@ -201,6 +249,8 @@
             padding: 18px 20px;
             border-radius: 8px;
         }
+
+        /* Контакты */
 
         .contact {
             text-align: center;
@@ -219,24 +269,7 @@
             text-decoration: none;
         }
 
-        .seo-links {
-            max-width: 800px;
-            margin: 30px auto 0;
-            padding: 25px;
-            background: #f5f7fa;
-            border-radius: 10px;
-            text-align: center;
-        }
-
-        .seo-links a {
-            color: #168aad;
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        .seo-links a:hover {
-            text-decoration: underline;
-        }
+        /* Футер */
 
         footer {
             background: #17212b;
@@ -250,8 +283,13 @@
         }
 
         @media (max-width: 800px) {
+
             .services {
                 grid-template-columns: 1fr 1fr;
+            }
+
+            .seo-pages {
+                grid-template-columns: 1fr;
             }
 
             h1 {
@@ -264,6 +302,7 @@
         }
 
         @media (max-width: 550px) {
+
             .services {
                 grid-template-columns: 1fr;
             }
@@ -283,15 +322,21 @@
 
 <header>
     <div class="container header-inner">
-        <div class="logo">Мастер Мурино</div>
+
+        <div class="logo">
+            Мастер Мурино
+        </div>
 
         <a class="phone" href="tel:+79500091169">
             +7 950 009-11-69
         </a>
+
     </div>
 </header>
 
 <main>
+
+    <!-- ГЛАВНЫЙ ЭКРАН -->
 
     <section class="hero">
         <div class="container">
@@ -313,6 +358,65 @@
         </div>
     </section>
 
+
+    <!-- ПЕРЕЛИНКОВКА НА SEO-СТРАНИЦЫ -->
+
+    <section>
+        <div class="container">
+
+            <h2>Ремонт бытовой техники в Мурино</h2>
+
+            <div class="seo-pages">
+
+                <div class="seo-card">
+
+                    <h3>
+                        Ремонт холодильников в Мурино
+                    </h3>
+
+                    <p>
+                        Диагностика и ремонт холодильников
+                        с выездом мастера на дом. Помощь при
+                        проблемах с охлаждением и других
+                        неисправностях холодильника.
+                    </p>
+
+                    <a class="seo-link"
+                       href="https://skitalez91-beep.github.io/remont-holodilnikov/">
+                        Подробнее о ремонте холодильников →
+                    </a>
+
+                </div>
+
+
+                <div class="seo-card">
+
+                    <h3>
+                        Ремонт стиральных машин в Мурино
+                    </h3>
+
+                    <p>
+                        Диагностика и ремонт стиральных машин
+                        на дому. Если машина не включается,
+                        не сливает воду, не отжимает, не набирает
+                        воду или протекает.
+                    </p>
+
+                    <a class="seo-link"
+                       href="https://skitalez91-beep.github.io/remont-stiralnyh-mashin/">
+                        Подробнее о ремонте стиральных машин →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- УСЛУГИ -->
+
     <section>
         <div class="container">
 
@@ -327,18 +431,13 @@
                         устранение неисправностей и проблем
                         с охлаждением.
                     </p>
-
-                    <a class="service-link"
-                       href="https://skitalez91-beep.github.io/remont-holodilnikov/">
-                        Подробнее о ремонте холодильников →
-                    </a>
                 </div>
 
                 <div class="service">
                     <h3>Ремонт стиральных машин</h3>
                     <p>
-                        Ремонт стиральных машин, устранение
-                        неисправностей, замена и ремонт
+                        Диагностика и ремонт стиральных машин,
+                        устранение неисправностей и ремонт
                         отдельных компонентов.
                     </p>
                 </div>
@@ -380,19 +479,43 @@
 
             </div>
 
-            <div class="seo-links">
-                <strong>Ремонт холодильников в Мурино</strong>
-                <br>
-                Подробная информация об услуге, неисправностях
-                и вызове мастера на дом:
-                <br><br>
-                <a href="https://skitalez91-beep.github.io/remont-holodilnikov/">
-                    Ремонт холодильников в Мурино — вызвать мастера
-                </a>
-            </div>
+        </div>
+    </section>
+
+
+    <!-- ТЕКСТОВЫЙ SEO-БЛОК -->
+
+    <section>
+        <div class="container text">
+
+            <h2>Ремонт бытовой техники в Мурино</h2>
+
+            <p>
+                Если бытовая техника перестала работать,
+                не включается, не нагревает, не охлаждает,
+                протекает или работает неправильно,
+                можно вызвать мастера на дом.
+            </p>
+
+            <p>
+                Выполняем ремонт холодильников,
+                стиральных машин, плит, духовок и другой
+                бытовой техники. Также выполняем работы
+                по электрике, сантехнике и различные
+                бытовые задачи в формате «мастер на час».
+            </p>
+
+            <p>
+                Работаем с выездом по Мурино и ближайшим
+                районам. Заявку можно оставить по телефону
+                или через Telegram-бот.
+            </p>
 
         </div>
     </section>
+
+
+    <!-- ПРЕИМУЩЕСТВА -->
 
     <section>
         <div class="container">
@@ -428,42 +551,8 @@
         </div>
     </section>
 
-    <section>
-        <div class="container">
 
-            <h2>Ремонт бытовой техники в Мурино</h2>
-
-            <p>
-                Если бытовая техника перестала работать,
-                не включается, не нагревает, не охлаждает,
-                протекает или работает неправильно,
-                можно вызвать мастера на дом.
-            </p>
-
-            <p>
-                Выполняем ремонт холодильников,
-                стиральных машин, плит, духовок и другой
-                бытовой техники. Также выполняем работы
-                по электрике, сантехнике и различные
-                бытовые задачи в формате «мастер на час».
-            </p>
-
-            <p>
-                Заявку можно оставить по телефону или
-                через Telegram-бот. После обращения
-                согласуем удобное время выезда.
-            </p>
-
-            <p>
-                Отдельная информация по ремонту холодильников
-                в Мурино доступна на специализированной странице:
-                <a href="https://skitalez91-beep.github.io/remont-holodilnikov/">
-                    ремонт холодильников в Мурино
-                </a>.
-            </p>
-
-        </div>
-    </section>
+    <!-- КОНТАКТЫ -->
 
     <section class="contact">
         <div class="container">
@@ -486,6 +575,7 @@
     </section>
 
 </main>
+
 
 <footer>
     <div class="container">
@@ -515,12 +605,6 @@
 
         <p>
             Ежедневно: 09:00–21:00
-        </p>
-
-        <p>
-            <a href="https://skitalez91-beep.github.io/remont-holodilnikov/">
-                Ремонт холодильников в Мурино
-            </a>
         </p>
 
     </div>
