@@ -6,7 +6,7 @@
 
     <title>Сантехник в Мурино с выездом — ремонт сантехники | Мастер Мурино</title>
 
-    <meta name="description" content="Сантехник в Мурино с выездом на дом. Ремонт и установка сантехники, устранение протечек и другие сантехнические работы. Заявка в Telegram или по телефону.">
+    <meta name="description" content="Сантехник в Мурино с выездом на дом. Ремонт и установка сантехники, устранение протечек, замена смесителей, сифонов и другие сантехнические работы. Заявка по телефону или в Telegram.">
 
     <meta name="robots" content="index, follow">
 
@@ -14,14 +14,54 @@
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Сантехник в Мурино с выездом — Мастер Мурино">
-    <meta property="og:description" content="Ремонт и установка сантехники в Мурино с выездом мастера.">
+    <meta property="og:description" content="Ремонт и установка сантехники в Мурино с выездом мастера. Устранение протечек, замена и установка сантехнических элементов.">
     <meta property="og:url" content="https://skitalez91-beep.github.io/santehnik/">
     <meta property="og:site_name" content="Мастер Мурино">
 
-    <style>
-        * { box-sizing: border-box; }
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Сантехник в Мурино с выездом — Мастер Мурино">
+    <meta name="twitter:description" content="Сантехнические работы в Мурино с выездом мастера на дом.">
 
-        html { scroll-behavior: smooth; }
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Мастер Мурино",
+        "description": "Сантехнические работы в Мурино с выездом мастера на дом.",
+        "url": "https://skitalez91-beep.github.io/santehnik/",
+        "telephone": "+79500091169",
+        "sameAs": [
+            "https://t.me/MasterMurinoBot"
+        ],
+        "areaServed": {
+            "@type": "City",
+            "name": "Мурино"
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "opens": "09:00",
+            "closes": "21:00"
+        }
+    }
+    </script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
 
         body {
             margin: 0;
@@ -93,6 +133,10 @@
             font-weight: bold;
         }
 
+        .button:hover {
+            opacity: 0.9;
+        }
+
         section {
             padding: 55px 20px;
         }
@@ -118,7 +162,7 @@
             background: white;
             padding: 25px;
             border-radius: 10px;
-            box-shadow: 0 3px 15px rgba(0,0,0,0.07);
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
         }
 
         section:nth-child(even) .service {
@@ -156,6 +200,36 @@
             border-radius: 8px;
         }
 
+        .links {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .link-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+        }
+
+        .link-card h3 {
+            margin-top: 0;
+            font-size: 20px;
+        }
+
+        .link-card a {
+            color: #168aad;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .link-card a:hover {
+            text-decoration: underline;
+        }
+
         .contact {
             text-align: center;
         }
@@ -184,11 +258,14 @@
             color: white;
         }
 
-        @media (max-width: 800px) {
-            .services {
+        @media (max-width: 900px) {
+            .services,
+            .links {
                 grid-template-columns: 1fr 1fr;
             }
+        }
 
+        @media (max-width: 800px) {
             h1 {
                 font-size: 34px;
             }
@@ -199,7 +276,8 @@
         }
 
         @media (max-width: 550px) {
-            .services {
+            .services,
+            .links {
                 grid-template-columns: 1fr;
             }
 
@@ -218,11 +296,15 @@
 
 <header>
     <div class="container header-inner">
-        <div class="logo">Мастер Мурино</div>
+
+        <div class="logo">
+            Мастер Мурино
+        </div>
 
         <a class="phone" href="tel:+79500091169">
             +7 950 009-11-69
         </a>
+
     </div>
 </header>
 
@@ -234,8 +316,9 @@
         <h1>Сантехник в Мурино с выездом</h1>
 
         <p>
-            Ремонт и установка сантехники, устранение протечек
-            и другие сантехнические работы с выездом на дом.
+            Ремонт и установка сантехники, устранение протечек,
+            замена смесителей, сифонов и другие сантехнические
+            работы с выездом на дом.
         </p>
 
         <a class="button" href="https://t.me/MasterMurinoBot">
@@ -360,6 +443,60 @@
     </div>
 </section>
 
+<section>
+    <div class="container">
+
+        <h2>Другие услуги Мастера Мурино</h2>
+
+        <div class="links">
+
+            <div class="link-card">
+                <h3>Мастер на час</h3>
+                <a href="https://skitalez91-beep.github.io/master-na-chas/">
+                    Мастер на час в Мурино →
+                </a>
+            </div>
+
+            <div class="link-card">
+                <h3>Электрик</h3>
+                <a href="https://skitalez91-beep.github.io/elektrik/">
+                    Электрик в Мурино →
+                </a>
+            </div>
+
+            <div class="link-card">
+                <h3>Ремонт бытовой техники</h3>
+                <a href="https://skitalez91-beep.github.io/">
+                    Главная страница →
+                </a>
+            </div>
+
+            <div class="link-card">
+                <h3>Ремонт холодильников</h3>
+                <a href="https://skitalez91-beep.github.io/remont-holodilnikov/">
+                    Ремонт холодильников →
+                </a>
+            </div>
+
+            <div class="link-card">
+                <h3>Ремонт стиральных машин</h3>
+                <a href="https://skitalez91-beep.github.io/remont-stiralnyh-mashin/">
+                    Ремонт стиральных машин →
+                </a>
+            </div>
+
+            <div class="link-card">
+                <h3>Ремонт плит и духовок</h3>
+                <a href="https://skitalez91-beep.github.io/remont-plit-duhovok/">
+                    Ремонт плит и духовок →
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
 <section class="contact">
     <div class="container">
 
@@ -387,19 +524,33 @@
 
         <p><strong>Мастер Мурино</strong></p>
 
-        <p>Сантехнические работы с выездом в Мурино.</p>
+        <p>
+            Сантехнические работы с выездом в Мурино.
+        </p>
 
         <p>
             Телефон:
-            <a href="tel:+79500091169">+7 950 009-11-69</a>
+            <a href="tel:+79500091169">
+                +7 950 009-11-69
+            </a>
         </p>
 
         <p>
             Telegram:
-            <a href="https://t.me/MasterMurinoBot">@MasterMurinoBot</a>
+            <a href="https://t.me/MasterMurinoBot">
+                @MasterMurinoBot
+            </a>
         </p>
 
-        <p>Ежедневно: 09:00–21:00</p>
+        <p>
+            Ежедневно: 09:00–21:00
+        </p>
+
+        <p>
+            <a href="https://skitalez91-beep.github.io/">
+                Главная — Мастер Мурино
+            </a>
+        </p>
 
     </div>
 </footer>
