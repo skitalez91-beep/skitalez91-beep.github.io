@@ -6,7 +6,9 @@
 
     <title>Сантехник в Мурино с выездом — ремонт сантехники | Мастер Мурино</title>
 
-    <meta name="description" content="Сантехник в Мурино с выездом на дом. Ремонт и установка сантехники, устранение протечек, замена смесителей, сифонов и другие сантехнические работы. Заявка по телефону или в Telegram.">
+    <meta name="description" content="Сантехник в Мурино с выездом на дом. Ремонт и установка сантехники, устранение протечек, замена смесителей, сифонов, шлангов и других сантехнических элементов.">
+
+    <meta name="keywords" content="сантехник Мурино, сантехник на дом Мурино, сантехник с выездом Мурино, ремонт сантехники Мурино, сантехнические работы Мурино, устранение протечек Мурино, замена смесителя Мурино, замена сифона Мурино">
 
     <meta name="robots" content="index, follow">
 
@@ -14,13 +16,13 @@
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Сантехник в Мурино с выездом — Мастер Мурино">
-    <meta property="og:description" content="Ремонт и установка сантехники в Мурино с выездом мастера. Устранение протечек, замена и установка сантехнических элементов.">
+    <meta property="og:description" content="Сантехник в Мурино с выездом на дом. Ремонт, замена и установка сантехники, устранение протечек.">
     <meta property="og:url" content="https://skitalez91-beep.github.io/santehnik/">
     <meta property="og:site_name" content="Мастер Мурино">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Сантехник в Мурино с выездом — Мастер Мурино">
-    <meta name="twitter:description" content="Сантехнические работы в Мурино с выездом мастера на дом.">
+    <meta name="twitter:description" content="Ремонт и установка сантехники в Мурино с выездом мастера.">
 
     <script type="application/ld+json">
     {
@@ -116,7 +118,7 @@
         }
 
         .hero p {
-            max-width: 800px;
+            max-width: 820px;
             margin: 0 auto 30px;
             font-size: 20px;
             color: #555;
@@ -148,6 +150,7 @@
         h2 {
             text-align: center;
             font-size: 32px;
+            line-height: 1.3;
             margin-top: 0;
             margin-bottom: 35px;
         }
@@ -176,6 +179,21 @@
 
         .service p {
             color: #555;
+            margin-bottom: 0;
+        }
+
+        .problems {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .problem {
+            background: #f5f7fa;
+            padding: 18px 20px;
+            border-radius: 8px;
         }
 
         .text {
@@ -275,6 +293,12 @@
             }
         }
 
+        @media (max-width: 650px) {
+            .problems {
+                grid-template-columns: 1fr;
+            }
+        }
+
         @media (max-width: 550px) {
             .services,
             .links {
@@ -285,8 +309,16 @@
                 font-size: 30px;
             }
 
+            h2 {
+                font-size: 28px;
+            }
+
             .hero {
                 padding: 50px 20px;
+            }
+
+            .contact-phone {
+                font-size: 24px;
             }
         }
     </style>
@@ -310,219 +342,297 @@
 
 <main>
 
-<section class="hero">
-    <div class="container">
+    <section class="hero">
+        <div class="container">
 
-        <h1>Сантехник в Мурино с выездом</h1>
+            <h1>Сантехник в Мурино с выездом на дом</h1>
 
-        <p>
-            Ремонт и установка сантехники, устранение протечек,
-            замена смесителей, сифонов и другие сантехнические
-            работы с выездом на дом.
-        </p>
+            <p>
+                Ремонт, замена и установка сантехники,
+                устранение протечек, замена смесителей,
+                сифонов, шлангов и других сантехнических элементов.
+            </p>
 
-        <a class="button" href="https://t.me/MasterMurinoBot">
-            Оставить заявку в Telegram
-        </a>
+            <a class="button" href="https://t.me/MasterMurinoBot">
+                Оставить заявку в Telegram
+            </a>
 
-    </div>
-</section>
+        </div>
+    </section>
 
-<section>
-    <div class="container">
 
-        <h2>Услуги сантехника в Мурино</h2>
+    <section>
+        <div class="container">
 
-        <div class="services">
+            <h2>Услуги сантехника в Мурино</h2>
 
-            <div class="service">
-                <h3>Устранение протечек</h3>
-                <p>
-                    Поиск причины протечки и устранение
-                    неисправностей сантехнических соединений.
-                </p>
-            </div>
+            <div class="services">
 
-            <div class="service">
-                <h3>Ремонт сантехники</h3>
-                <p>
-                    Ремонт и замена отдельных элементов
-                    сантехнического оборудования.
-                </p>
-            </div>
+                <div class="service">
+                    <h3>Устранение протечек</h3>
+                    <p>
+                        Поиск места протечки и устранение
+                        неисправностей сантехнических соединений,
+                        шлангов и других элементов.
+                    </p>
+                </div>
 
-            <div class="service">
-                <h3>Установка сантехники</h3>
-                <p>
-                    Установка и подключение бытового
-                    сантехнического оборудования.
-                </p>
-            </div>
+                <div class="service">
+                    <h3>Замена смесителей</h3>
+                    <p>
+                        Демонтаж старого и установка нового
+                        смесителя на кухне, в ванной или другом
+                        помещении.
+                    </p>
+                </div>
 
-            <div class="service">
-                <h3>Смесители</h3>
-                <p>
-                    Замена, установка и ремонт бытовых смесителей.
-                </p>
-            </div>
+                <div class="service">
+                    <h3>Ремонт и замена сифона</h3>
+                    <p>
+                        Замена сифонов, устранение протечек
+                        и проблем с соединениями под раковиной.
+                    </p>
+                </div>
 
-            <div class="service">
-                <h3>Сифоны и соединения</h3>
-                <p>
-                    Замена и ремонт сифонов, соединений
-                    и других элементов сантехнической системы.
-                </p>
-            </div>
+                <div class="service">
+                    <h3>Подключение сантехники</h3>
+                    <p>
+                        Подключение бытового сантехнического
+                        оборудования и проверка герметичности
+                        соединений.
+                    </p>
+                </div>
 
-            <div class="service">
-                <h3>Другие работы</h3>
-                <p>
-                    Уточните задачу — согласуем возможность
-                    выполнения работы.
-                </p>
+                <div class="service">
+                    <h3>Замена шлангов</h3>
+                    <p>
+                        Замена повреждённых или изношенных
+                        гибких подводок и других сантехнических
+                        соединительных элементов.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Другие сантехнические работы</h3>
+                    <p>
+                        Выполнение других бытовых сантехнических
+                        работ. Опишите задачу — определим,
+                        чем можем помочь.
+                    </p>
+                </div>
+
             </div>
 
         </div>
-    </div>
-</section>
+    </section>
 
-<section>
-    <div class="container text">
 
-        <h2>Сантехник в Мурино на дом</h2>
+    <section>
+        <div class="container">
 
-        <p>
-            При появлении протечки, неисправности смесителя,
-            сифона или другой бытовой сантехники можно вызвать
-            сантехника с выездом на дом в Мурино.
-        </p>
+            <h2>С какими проблемами обращаются</h2>
 
-        <p>
-            Выполняем ремонт, замену и установку сантехнических
-            элементов и оборудования.
-        </p>
+            <div class="problems">
 
-        <p>
-            Перед выездом можно описать проблему по телефону
-            или через Telegram-бот. После обращения согласуем
-            удобное время приезда мастера.
-        </p>
+                <div class="problem">
+                    Течёт смеситель
+                </div>
 
-    </div>
-</section>
+                <div class="problem">
+                    Протекает соединение трубы
+                </div>
 
-<section>
-    <div class="container">
+                <div class="problem">
+                    Протекает сифон
+                </div>
 
-        <h2>Почему обращаются к нам</h2>
+                <div class="problem">
+                    Вода течёт из-под раковины
+                </div>
 
-        <div class="advantages">
+                <div class="problem">
+                    Нужно заменить смеситель
+                </div>
 
-            <div>
-                <strong>Выезд по Мурино</strong><br>
-                Мастер приезжает непосредственно к заказчику.
-            </div>
+                <div class="problem">
+                    Нужно заменить сифон
+                </div>
 
-            <div>
-                <strong>Диагностика проблемы</strong><br>
-                Сначала определяем причину неисправности.
-            </div>
+                <div class="problem">
+                    Повреждён гибкий шланг
+                </div>
 
-            <div>
-                <strong>Разные сантехнические работы</strong><br>
-                Ремонт, замена и установка бытовой сантехники.
-            </div>
+                <div class="problem">
+                    Нужно подключить сантехнику
+                </div>
 
-            <div>
-                <strong>Работа ежедневно</strong><br>
-                Принимаем заявки с 09:00 до 21:00.
+                <div class="problem">
+                    Требуется устранить течь
+                </div>
+
+                <div class="problem">
+                    Нужен сантехник на дом
+                </div>
+
             </div>
 
         </div>
+    </section>
 
-    </div>
-</section>
 
-<section>
-    <div class="container">
+    <section>
+        <div class="container text">
 
-        <h2>Другие услуги Мастера Мурино</h2>
+            <h2>Сантехник на дом в Мурино</h2>
 
-        <div class="links">
+            <p>
+                Если появилась протечка, неисправен смеситель,
+                сифон, шланг или другое сантехническое оборудование,
+                можно вызвать сантехника с выездом на дом в Мурино.
+            </p>
 
-            <div class="link-card">
-                <h3>Мастер на час</h3>
-                <a href="https://skitalez91-beep.github.io/master-na-chas/">
-                    Мастер на час в Мурино →
-                </a>
-            </div>
+            <p>
+                Выполняем ремонт, замену и установку бытовой
+                сантехники. Перед выполнением работы определяем
+                причину неисправности и согласовываем дальнейшие
+                действия.
+            </p>
 
-            <div class="link-card">
-                <h3>Электрик</h3>
-                <a href="https://skitalez91-beep.github.io/elektrik/">
-                    Электрик в Мурино →
-                </a>
-            </div>
+            <p>
+                При необходимости можно заранее описать проблему
+                по телефону или через Telegram-бот. Это позволяет
+                предварительно оценить характер работы и подготовиться
+                к выезду.
+            </p>
 
-            <div class="link-card">
-                <h3>Ремонт бытовой техники</h3>
-                <a href="https://skitalez91-beep.github.io/">
-                    Главная страница →
-                </a>
-            </div>
+            <p>
+                Мастер выезжает по Мурино и ближайшим районам.
+                Заявки принимаются ежедневно с 09:00 до 21:00.
+            </p>
 
-            <div class="link-card">
-                <h3>Ремонт холодильников</h3>
-                <a href="https://skitalez91-beep.github.io/remont-holodilnikov/">
-                    Ремонт холодильников →
-                </a>
-            </div>
+        </div>
+    </section>
 
-            <div class="link-card">
-                <h3>Ремонт стиральных машин</h3>
-                <a href="https://skitalez91-beep.github.io/remont-stiralnyh-mashin/">
-                    Ремонт стиральных машин →
-                </a>
-            </div>
 
-            <div class="link-card">
-                <h3>Ремонт плит и духовок</h3>
-                <a href="https://skitalez91-beep.github.io/remont-plit-duhovok/">
-                    Ремонт плит и духовок →
-                </a>
+    <section>
+        <div class="container">
+
+            <h2>Почему обращаются к нам</h2>
+
+            <div class="advantages">
+
+                <div>
+                    <strong>Выезд сантехника в Мурино</strong><br>
+                    Мастер приезжает непосредственно к заказчику.
+                </div>
+
+                <div>
+                    <strong>Диагностика проблемы</strong><br>
+                    Сначала определяем причину неисправности,
+                    затем согласовываем необходимые работы.
+                </div>
+
+                <div>
+                    <strong>Ремонт и замена на месте</strong><br>
+                    Типовые сантехнические работы выполняются
+                    непосредственно по адресу заказчика.
+                </div>
+
+                <div>
+                    <strong>Ежедневный приём заявок</strong><br>
+                    Принимаем обращения ежедневно с 09:00 до 21:00.
+                </div>
+
             </div>
 
         </div>
+    </section>
 
-    </div>
-</section>
 
-<section class="contact">
-    <div class="container">
+    <section>
+        <div class="container">
 
-        <h2>Заказать сантехника в Мурино</h2>
+            <h2>Другие услуги Мастера Мурино</h2>
 
-        <p>
-            Принимаем заявки ежедневно с 09:00 до 21:00.
-        </p>
+            <div class="links">
 
-        <a class="contact-phone" href="tel:+79500091169">
-            +7 950 009-11-69
-        </a>
+                <div class="link-card">
+                    <h3>Мастер на час</h3>
+                    <a href="https://skitalez91-beep.github.io/master-na-chas/">
+                        Мастер на час в Мурино →
+                    </a>
+                </div>
 
-        <a class="button" href="https://t.me/MasterMurinoBot">
-            Написать в Telegram
-        </a>
+                <div class="link-card">
+                    <h3>Электрик</h3>
+                    <a href="https://skitalez91-beep.github.io/elektrik/">
+                        Электрик в Мурино →
+                    </a>
+                </div>
 
-    </div>
-</section>
+                <div class="link-card">
+                    <h3>Ремонт холодильников</h3>
+                    <a href="https://skitalez91-beep.github.io/remont-holodilnikov/">
+                        Ремонт холодильников →
+                    </a>
+                </div>
+
+                <div class="link-card">
+                    <h3>Ремонт стиральных машин</h3>
+                    <a href="https://skitalez91-beep.github.io/remont-stiralnyh-mashin/">
+                        Ремонт стиральных машин →
+                    </a>
+                </div>
+
+                <div class="link-card">
+                    <h3>Ремонт плит и духовок</h3>
+                    <a href="https://skitalez91-beep.github.io/remont-plit-duhovok/">
+                        Ремонт плит и духовок →
+                    </a>
+                </div>
+
+                <div class="link-card">
+                    <h3>Все услуги</h3>
+                    <a href="https://skitalez91-beep.github.io/">
+                        Главная страница →
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="contact">
+        <div class="container">
+
+            <h2>Вызвать сантехника в Мурино</h2>
+
+            <p>
+                Принимаем заявки ежедневно с 09:00 до 21:00.
+            </p>
+
+            <a class="contact-phone" href="tel:+79500091169">
+                +7 950 009-11-69
+            </a>
+
+            <a class="button" href="https://t.me/MasterMurinoBot">
+                Написать в Telegram
+            </a>
+
+        </div>
+    </section>
 
 </main>
+
 
 <footer>
     <div class="container">
 
-        <p><strong>Мастер Мурино</strong></p>
+        <p>
+            <strong>Мастер Мурино</strong>
+        </p>
 
         <p>
             Сантехнические работы с выездом в Мурино.
