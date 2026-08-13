@@ -196,6 +196,8 @@
         }
 
         .service {
+            display: flex;
+            flex-direction: column;
             background: white;
             padding: 25px;
             border-radius: 10px;
@@ -213,6 +215,17 @@
 
         .service p {
             color: #555;
+        }
+
+        .service-link {
+            margin-top: auto;
+            color: #168aad;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .service-link:hover {
+            text-decoration: underline;
         }
 
         .text {
@@ -254,6 +267,31 @@
             text-decoration: none;
         }
 
+        .all-services {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .all-services a {
+            display: block;
+            background: white;
+            padding: 22px;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+            color: #168aad;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .all-services a:hover {
+            text-decoration: underline;
+        }
+
         footer {
             background: #17212b;
             color: #ddd;
@@ -266,11 +304,9 @@
         }
 
         @media (max-width: 900px) {
-            .seo-pages {
-                grid-template-columns: 1fr 1fr;
-            }
-
-            .services {
+            .seo-pages,
+            .services,
+            .all-services {
                 grid-template-columns: 1fr 1fr;
             }
         }
@@ -286,11 +322,9 @@
         }
 
         @media (max-width: 550px) {
-            .seo-pages {
-                grid-template-columns: 1fr;
-            }
-
-            .services {
+            .seo-pages,
+            .services,
+            .all-services {
                 grid-template-columns: 1fr;
             }
 
@@ -346,13 +380,13 @@
     </section>
 
 
-    <!-- ОСНОВНЫЕ УСЛУГИ -->
+    <!-- ОСНОВНЫЕ SEO-СТРАНИЦЫ -->
 
     <section>
         <div class="container">
 
             <h2>
-                Ремонт бытовой техники в Мурино
+                Ремонт и услуги в Мурино
             </h2>
 
             <div class="seo-pages">
@@ -500,57 +534,163 @@
             <div class="services">
 
                 <div class="service">
-                    <h3>Ремонт холодильников</h3>
+
+                    <h3>
+                        Ремонт холодильников
+                    </h3>
+
                     <p>
                         Диагностика и ремонт холодильников,
                         устранение неисправностей и проблем
                         с охлаждением.
                     </p>
+
+                    <a class="service-link"
+                       href="https://skitalez91-beep.github.io/remont-holodilnikov/">
+                        Подробнее о ремонте →
+                    </a>
+
                 </div>
 
+
                 <div class="service">
-                    <h3>Ремонт стиральных машин</h3>
+
+                    <h3>
+                        Ремонт стиральных машин
+                    </h3>
+
                     <p>
                         Диагностика и ремонт стиральных машин,
                         устранение неисправностей и ремонт
                         отдельных компонентов.
                     </p>
+
+                    <a class="service-link"
+                       href="https://skitalez91-beep.github.io/remont-stiralnyh-mashin/">
+                        Подробнее о ремонте →
+                    </a>
+
                 </div>
 
+
                 <div class="service">
-                    <h3>Ремонт плит и духовок</h3>
+
+                    <h3>
+                        Ремонт плит и духовок
+                    </h3>
+
                     <p>
                         Диагностика и ремонт электрических
                         плит, варочных панелей и духовок.
                     </p>
+
+                    <a class="service-link"
+                       href="https://skitalez91-beep.github.io/remont-plit-duhovok/">
+                        Подробнее о ремонте →
+                    </a>
+
                 </div>
 
+
                 <div class="service">
-                    <h3>Мастер на час</h3>
+
+                    <h3>
+                        Мастер на час
+                    </h3>
+
                     <p>
                         Мелкий бытовой ремонт, установка,
                         сборка, крепление и другие работы
                         по дому.
                     </p>
+
+                    <a class="service-link"
+                       href="https://skitalez91-beep.github.io/master-na-chas/">
+                        Подробнее об услуге →
+                    </a>
+
                 </div>
 
+
                 <div class="service">
-                    <h3>Электрика</h3>
+
+                    <h3>
+                        Электрика
+                    </h3>
+
                     <p>
                         Установка и ремонт розеток,
                         выключателей, светильников
                         и другие электромонтажные работы.
                     </p>
+
+                    <a class="service-link"
+                       href="https://skitalez91-beep.github.io/elektrik/">
+                        Подробнее об услуге →
+                    </a>
+
                 </div>
 
+
                 <div class="service">
-                    <h3>Сантехника</h3>
+
+                    <h3>
+                        Сантехника
+                    </h3>
+
                     <p>
                         Ремонт и установка сантехнического
                         оборудования, устранение протечек
                         и другие сантехнические работы.
                     </p>
+
+                    <a class="service-link"
+                       href="https://skitalez91-beep.github.io/santehnik/">
+                        Подробнее об услуге →
+                    </a>
+
                 </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ВСЕ НАПРАВЛЕНИЯ -->
+
+    <section>
+        <div class="container">
+
+            <h2>
+                Все услуги Мастера Мурино
+            </h2>
+
+            <div class="all-services">
+
+                <a href="https://skitalez91-beep.github.io/remont-holodilnikov/">
+                    Ремонт холодильников
+                </a>
+
+                <a href="https://skitalez91-beep.github.io/remont-stiralnyh-mashin/">
+                    Ремонт стиральных машин
+                </a>
+
+                <a href="https://skitalez91-beep.github.io/remont-plit-duhovok/">
+                    Ремонт плит и духовок
+                </a>
+
+                <a href="https://skitalez91-beep.github.io/master-na-chas/">
+                    Мастер на час
+                </a>
+
+                <a href="https://skitalez91-beep.github.io/elektrik/">
+                    Электрик
+                </a>
+
+                <a href="https://skitalez91-beep.github.io/santehnik/">
+                    Сантехник
+                </a>
 
             </div>
 
@@ -636,6 +776,7 @@
     <!-- КОНТАКТЫ -->
 
     <section class="contact">
+
         <div class="container">
 
             <h2>
@@ -656,12 +797,14 @@
             </a>
 
         </div>
+
     </section>
 
 </main>
 
 
 <footer>
+
     <div class="container">
 
         <p>
@@ -692,6 +835,7 @@
         </p>
 
     </div>
+
 </footer>
 
 </body>
