@@ -124,6 +124,14 @@
             color: #555;
         }
 
+        .buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
         .button {
             display: inline-block;
             padding: 15px 28px;
@@ -137,6 +145,10 @@
 
         .button:hover {
             opacity: 0.9;
+        }
+
+        .button-phone {
+            background: #17212b;
         }
 
         section {
@@ -308,6 +320,11 @@
             .hero {
                 padding: 50px 20px;
             }
+
+            .button {
+                width: 100%;
+                max-width: 320px;
+            }
         }
     </style>
 </head>
@@ -341,9 +358,19 @@
                 в Мурино и ближайших районах.
             </p>
 
-            <a class="button" href="https://t.me/MasterMurinoBot">
-                Оставить заявку в Telegram
-            </a>
+            <div class="buttons">
+
+                <a class="button"
+                   href="https://t.me/MasterMurinoBot">
+                    Оставить заявку в Telegram
+                </a>
+
+                <a class="button button-phone"
+                   href="tel:+79500091169">
+                    Позвонить мастеру
+                </a>
+
+            </div>
 
         </div>
     </section>
@@ -595,13 +622,24 @@
                 Принимаем заявки ежедневно с 09:00 до 21:00.
             </p>
 
-            <a class="contact-phone" href="tel:+79500091169">
+            <a class="contact-phone"
+               href="tel:+79500091169">
                 +7 950 009-11-69
             </a>
 
-            <a class="button" href="https://t.me/MasterMurinoBot">
-                Написать в Telegram
-            </a>
+            <div class="buttons">
+
+                <a class="button"
+                   href="https://t.me/MasterMurinoBot">
+                    Написать в Telegram
+                </a>
+
+                <a class="button button-phone"
+                   href="tel:+79500091169">
+                    Позвонить мастеру
+                </a>
+
+            </div>
 
         </div>
     </section>
