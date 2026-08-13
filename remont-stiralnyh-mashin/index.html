@@ -6,9 +6,9 @@
 
     <title>Ремонт стиральных машин в Мурино на дому — Мастер Мурино</title>
 
-    <meta name="description" content="Ремонт стиральных машин в Мурино с выездом мастера на дом. Стиральная машина не включается, не сливает воду, не отжимает, не набирает воду или протекает. Диагностика и ремонт. Заявка в Telegram или по телефону.">
+    <meta name="description" content="Ремонт стиральных машин в Мурино с выездом мастера на дом. Стиральная машина не включается, не сливает воду, не отжимает, не набирает воду, протекает или не греет воду. Диагностика и ремонт.">
 
-    <meta name="keywords" content="ремонт стиральных машин Мурино, ремонт стиральной машины Мурино, мастер по ремонту стиральных машин Мурино, ремонт стиральных машин на дому Мурино, стиральная машина не сливает воду Мурино, стиральная машина не отжимает Мурино, стиральная машина не включается Мурино, мастер Мурино">
+    <meta name="keywords" content="ремонт стиральных машин Мурино, ремонт стиральной машины Мурино, мастер по ремонту стиральных машин Мурино, ремонт стиральных машин на дому Мурино, стиральная машина не сливает воду Мурино, стиральная машина не отжимает Мурино, стиральная машина не включается Мурино">
 
     <meta name="robots" content="index, follow">
 
@@ -202,6 +202,36 @@
             border-radius: 8px;
         }
 
+        .links {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .link-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+        }
+
+        .link-card h3 {
+            margin-top: 0;
+            font-size: 20px;
+        }
+
+        .link-card a {
+            color: #168aad;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .link-card a:hover {
+            text-decoration: underline;
+        }
+
         .contact {
             text-align: center;
         }
@@ -219,25 +249,6 @@
             text-decoration: none;
         }
 
-        .navigation {
-            max-width: 900px;
-            margin: 30px auto 0;
-            padding: 25px;
-            background: #f5f7fa;
-            border-radius: 10px;
-            text-align: center;
-        }
-
-        .navigation a {
-            color: #168aad;
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        .navigation a:hover {
-            text-decoration: underline;
-        }
-
         footer {
             background: #17212b;
             color: #ddd;
@@ -247,6 +258,12 @@
 
         footer a {
             color: white;
+        }
+
+        @media (max-width: 900px) {
+            .links {
+                grid-template-columns: 1fr 1fr;
+            }
         }
 
         @media (max-width: 700px) {
@@ -264,6 +281,10 @@
         }
 
         @media (max-width: 550px) {
+            .links {
+                grid-template-columns: 1fr;
+            }
+
             h1 {
                 font-size: 30px;
             }
@@ -372,6 +393,23 @@
                     </p>
                 </div>
 
+                <div class="problem">
+                    <h3>Сильно шумит или вибрирует</h3>
+                    <p>
+                        Определяем причину необычного шума,
+                        сильной вибрации и других проблем
+                        при работе барабана.
+                    </p>
+                </div>
+
+                <div class="problem">
+                    <h3>Не вращается барабан</h3>
+                    <p>
+                        Проверяем причины отсутствия вращения
+                        барабана и связанные с этим узлы.
+                    </p>
+                </div>
+
             </div>
 
         </div>
@@ -449,45 +487,55 @@
 
 
     <section>
-        <div class="container navigation">
+        <div class="container">
 
-            <strong>Другие услуги Мастера Мурино</strong>
+            <h2>Другие услуги Мастера Мурино</h2>
 
-            <p>
-                <a href="https://skitalez91-beep.github.io/">
-                    Ремонт бытовой техники и мастер на час в Мурино
-                </a>
-            </p>
+            <div class="links">
 
-            <p>
-                <a href="https://skitalez91-beep.github.io/remont-holodilnikov/">
-                    Ремонт холодильников в Мурино
-                </a>
-            </p>
+                <div class="link-card">
+                    <h3>Ремонт холодильников</h3>
+                    <a href="https://skitalez91-beep.github.io/remont-holodilnikov/">
+                        Ремонт холодильников в Мурино →
+                    </a>
+                </div>
 
-            <p>
-                <a href="https://skitalez91-beep.github.io/remont-plit-duhovok/">
-                    Ремонт плит и духовок в Мурино
-                </a>
-            </p>
+                <div class="link-card">
+                    <h3>Плиты и духовки</h3>
+                    <a href="https://skitalez91-beep.github.io/remont-plit-duhovok/">
+                        Ремонт плит и духовок в Мурино →
+                    </a>
+                </div>
 
-            <p>
-                <a href="https://skitalez91-beep.github.io/master-na-chas/">
-                    Мастер на час в Мурино
-                </a>
-            </p>
+                <div class="link-card">
+                    <h3>Мастер на час</h3>
+                    <a href="https://skitalez91-beep.github.io/master-na-chas/">
+                        Мастер на час в Мурино →
+                    </a>
+                </div>
 
-            <p>
-                <a href="https://skitalez91-beep.github.io/elektrik/">
-                    Электрик в Мурино
-                </a>
-            </p>
+                <div class="link-card">
+                    <h3>Электрик</h3>
+                    <a href="https://skitalez91-beep.github.io/elektrik/">
+                        Электрик в Мурино →
+                    </a>
+                </div>
 
-            <p>
-                <a href="https://skitalez91-beep.github.io/santehnik/">
-                    Сантехник в Мурино
-                </a>
-            </p>
+                <div class="link-card">
+                    <h3>Сантехник</h3>
+                    <a href="https://skitalez91-beep.github.io/santehnik/">
+                        Сантехник в Мурино →
+                    </a>
+                </div>
+
+                <div class="link-card">
+                    <h3>Все услуги</h3>
+                    <a href="https://skitalez91-beep.github.io/">
+                        Главная страница Мастер Мурино →
+                    </a>
+                </div>
+
+            </div>
 
         </div>
     </section>
