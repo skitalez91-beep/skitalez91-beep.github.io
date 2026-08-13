@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Ремонт бытовой техники и мастер на час в Мурино — Мастер Мурино</title>
@@ -152,13 +153,11 @@
             margin-bottom: 35px;
         }
 
-        /* SEO-страницы */
-
         .seo-pages {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 25px;
-            max-width: 950px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1100px;
             margin: 0 auto;
         }
 
@@ -166,14 +165,14 @@
             display: flex;
             flex-direction: column;
             background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 3px 18px rgba(0,0,0,0.08);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.07);
         }
 
         .seo-card h3 {
             margin-top: 0;
-            font-size: 23px;
+            font-size: 21px;
         }
 
         .seo-card p {
@@ -183,7 +182,6 @@
 
         .seo-link {
             margin-top: auto;
-            display: inline-block;
             color: #168aad;
             font-weight: bold;
             text-decoration: none;
@@ -193,8 +191,6 @@
         .seo-link:hover {
             text-decoration: underline;
         }
-
-        /* Основные услуги */
 
         .services {
             display: grid;
@@ -222,8 +218,6 @@
             color: #555;
         }
 
-        /* Текст */
-
         .text {
             max-width: 900px;
             margin: 0 auto;
@@ -233,8 +227,6 @@
             font-size: 18px;
             color: #444;
         }
-
-        /* Преимущества */
 
         .advantages {
             max-width: 800px;
@@ -247,8 +239,6 @@
             padding: 18px 20px;
             border-radius: 8px;
         }
-
-        /* Контакты */
 
         .contact {
             text-align: center;
@@ -267,8 +257,6 @@
             text-decoration: none;
         }
 
-        /* Футер */
-
         footer {
             background: #17212b;
             color: #ddd;
@@ -280,16 +268,17 @@
             color: white;
         }
 
-        @media (max-width: 800px) {
+        @media (max-width: 900px) {
+            .seo-pages {
+                grid-template-columns: 1fr 1fr;
+            }
 
             .services {
                 grid-template-columns: 1fr 1fr;
             }
+        }
 
-            .seo-pages {
-                grid-template-columns: 1fr;
-            }
-
+        @media (max-width: 800px) {
             h1 {
                 font-size: 34px;
             }
@@ -300,6 +289,9 @@
         }
 
         @media (max-width: 550px) {
+            .seo-pages {
+                grid-template-columns: 1fr;
+            }
 
             .services {
                 grid-template-columns: 1fr;
@@ -334,8 +326,6 @@
 
 <main>
 
-    <!-- ГЛАВНЫЙ ЭКРАН -->
-
     <section class="hero">
         <div class="container">
 
@@ -356,8 +346,6 @@
         </div>
     </section>
 
-
-    <!-- ПЕРЕЛИНКОВКА НА SEO-СТРАНИЦЫ -->
 
     <section>
         <div class="container">
@@ -407,13 +395,32 @@
 
                 </div>
 
+
+                <div class="seo-card">
+
+                    <h3>
+                        Ремонт плит и духовок в Мурино
+                    </h3>
+
+                    <p>
+                        Диагностика и ремонт электрических плит,
+                        варочных панелей и духовок. Помощь при
+                        проблемах с включением, нагревом
+                        и управлением.
+                    </p>
+
+                    <a class="seo-link"
+                       href="https://skitalez91-beep.github.io/remont-plit-duhovok/">
+                        Подробнее о ремонте плит и духовок →
+                    </a>
+
+                </div>
+
             </div>
 
         </div>
     </section>
 
-
-    <!-- УСЛУГИ -->
 
     <section>
         <div class="container">
@@ -481,8 +488,6 @@
     </section>
 
 
-    <!-- ТЕКСТОВЫЙ SEO-БЛОК -->
-
     <section>
         <div class="container text">
 
@@ -512,8 +517,6 @@
         </div>
     </section>
 
-
-    <!-- ПРЕИМУЩЕСТВА -->
 
     <section>
         <div class="container">
@@ -549,8 +552,6 @@
         </div>
     </section>
 
-
-    <!-- КОНТАКТЫ -->
 
     <section class="contact">
         <div class="container">
