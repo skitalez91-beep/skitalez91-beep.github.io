@@ -2,42 +2,57 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Ремонт холодильников в Мурино на дому — Мастер Мурино</title>
+    <title>Ремонт холодильников в Мурино — выезд мастера | Мастер Мурино</title>
 
-    <meta name="description" content="Ремонт холодильников в Мурино с выездом мастера на дом. Диагностика неисправностей, ремонт системы охлаждения, устранение протечек и других неисправностей. Заявка по телефону или в Telegram.">
+    <meta name="description" content="Ремонт холодильников в Мурино с выездом мастера на дом. Диагностика и ремонт холодильников, устранение проблем с охлаждением, запуском, утечками и другими неисправностями. Заявка в Telegram или по телефону.">
 
-    <meta name="keywords" content="ремонт холодильников Мурино, ремонт холодильника Мурино, мастер по холодильникам Мурино, холодильник не морозит Мурино, ремонт холодильников на дому Мурино, мастер холодильник Мурино">
+    <meta name="keywords" content="ремонт холодильников Мурино, ремонт холодильника Мурино, мастер по холодильникам Мурино, холодильник не морозит Мурино, ремонт холодильников на дому Мурино">
 
     <meta name="robots" content="index, follow">
 
     <link rel="canonical" href="https://skitalez91-beep.github.io/remont-holodilnikov/">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Ремонт холодильников в Мурино на дому — Мастер Мурино">
-    <meta property="og:description" content="Ремонт холодильников в Мурино с выездом мастера. Диагностика и устранение неисправностей.">
+    <meta property="og:title" content="Ремонт холодильников в Мурино — Мастер Мурино">
+    <meta property="og:description" content="Ремонт холодильников в Мурино с выездом мастера на дом. Диагностика и устранение неисправностей.">
     <meta property="og:url" content="https://skitalez91-beep.github.io/remont-holodilnikov/">
     <meta property="og:site_name" content="Мастер Мурино">
 
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Ремонт холодильников в Мурино — Мастер Мурино">
+    <meta name="twitter:description" content="Ремонт холодильников с выездом мастера в Мурино.">
+
+    <!-- Schema.org -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Ремонт холодильников в Мурино",
-      "description": "Ремонт и диагностика холодильников с выездом мастера на дом в Мурино.",
+      "@type": "LocalBusiness",
+      "name": "Мастер Мурино",
+      "description": "Ремонт холодильников в Мурино с выездом мастера на дом.",
       "url": "https://skitalez91-beep.github.io/remont-holodilnikov/",
       "telephone": "+79500091169",
+      "sameAs": [
+        "https://t.me/MasterMurinoBot"
+      ],
       "areaServed": {
         "@type": "City",
         "name": "Мурино"
       },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Мастер Мурино",
-        "telephone": "+79500091169",
-        "url": "https://skitalez91-beep.github.io/"
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "09:00",
+        "closes": "21:00"
       }
     }
     </script>
@@ -47,12 +62,16 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
             color: #222;
             background: #f5f7fa;
-            line-height: 1.7;
+            line-height: 1.6;
         }
 
         header {
@@ -62,7 +81,7 @@
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 1100px;
             margin: 0 auto;
             padding: 0 20px;
         }
@@ -75,100 +94,164 @@
         }
 
         .logo {
-            font-size: 24px;
+            font-size: 25px;
             font-weight: bold;
         }
 
-        header a {
+        .phone {
             color: white;
             text-decoration: none;
+            font-size: 18px;
             font-weight: bold;
-        }
-
-        main {
-            background: white;
         }
 
         .hero {
-            padding: 60px 20px;
+            background: white;
+            padding: 75px 20px;
             text-align: center;
-            background: #ffffff;
         }
 
         h1 {
             font-size: 42px;
             line-height: 1.2;
-            max-width: 850px;
             margin: 0 auto 20px;
+            max-width: 900px;
         }
 
         .hero p {
-            max-width: 750px;
+            max-width: 800px;
             margin: 0 auto 30px;
-            font-size: 19px;
+            font-size: 20px;
             color: #555;
         }
 
         .button {
             display: inline-block;
             padding: 15px 28px;
+            border-radius: 8px;
             background: #168aad;
             color: white;
             text-decoration: none;
-            border-radius: 8px;
             font-size: 18px;
             font-weight: bold;
         }
 
+        .button:hover {
+            opacity: 0.9;
+        }
+
         section {
-            padding: 50px 20px;
+            padding: 55px 20px;
         }
 
         section:nth-child(even) {
-            background: #f5f7fa;
+            background: white;
         }
 
         h2 {
-            font-size: 30px;
+            text-align: center;
+            font-size: 32px;
             margin-top: 0;
-            margin-bottom: 25px;
+            margin-bottom: 35px;
         }
 
-        h3 {
-            font-size: 22px;
+        .services {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .service {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.07);
+        }
+
+        section:nth-child(even) .service {
+            background: #f5f7fa;
+        }
+
+        .service h3 {
+            margin-top: 0;
+            font-size: 21px;
+        }
+
+        .service p {
+            color: #555;
+        }
+
+        .text {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .text p {
+            font-size: 18px;
+            color: #444;
         }
 
         .problems {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 15px;
+            max-width: 900px;
+            margin: 0 auto;
         }
 
         .problem {
-            padding: 20px;
-            background: white;
+            background: #f5f7fa;
+            padding: 18px 20px;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
         }
 
-        .steps {
-            max-width: 750px;
+        .advantages {
+            max-width: 800px;
+            margin: 0 auto;
         }
 
-        .step {
-            margin-bottom: 20px;
-            padding: 20px;
+        .advantages div {
+            background: #f5f7fa;
+            margin-bottom: 12px;
+            padding: 18px 20px;
+            border-radius: 8px;
+        }
+
+        .navigation {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .navigation a {
+            display: block;
             background: white;
-            border-left: 4px solid #168aad;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.07);
+            color: #168aad;
+            text-decoration: none;
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
         }
 
         .contact {
             text-align: center;
         }
 
-        .phone {
+        .contact p {
+            font-size: 19px;
+        }
+
+        .contact-phone {
             display: block;
-            margin: 20px 0;
+            margin: 15px 0;
             font-size: 28px;
             font-weight: bold;
             color: #17212b;
@@ -178,25 +261,49 @@
         footer {
             background: #17212b;
             color: #ddd;
-            padding: 30px 20px;
             text-align: center;
+            padding: 30px 20px;
         }
 
         footer a {
             color: white;
         }
 
-        @media (max-width: 650px) {
-            h1 {
-                font-size: 32px;
+        @media (max-width: 800px) {
+
+            .services {
+                grid-template-columns: 1fr 1fr;
             }
 
             .problems {
                 grid-template-columns: 1fr;
             }
 
+            .navigation {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 34px;
+            }
+
             .header-inner {
                 flex-direction: column;
+            }
+        }
+
+        @media (max-width: 550px) {
+
+            .services {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            .hero {
+                padding: 50px 20px;
             }
         }
     </style>
@@ -208,12 +315,10 @@
     <div class="container header-inner">
 
         <div class="logo">
-            <a href="https://skitalez91-beep.github.io/">
-                Мастер Мурино
-            </a>
+            Мастер Мурино
         </div>
 
-        <a href="tel:+79500091169">
+        <a class="phone" href="tel:+79500091169">
             +7 950 009-11-69
         </a>
 
@@ -222,19 +327,19 @@
 
 <main>
 
-    <section class="hero">
+    <!-- ГЛАВНЫЙ ЭКРАН -->
 
+    <section class="hero">
         <div class="container">
 
             <h1>
-                Ремонт холодильников в Мурино на дому
+                Ремонт холодильников в Мурино
             </h1>
 
             <p>
-                Диагностика и ремонт холодильников
-                с выездом мастера в Мурино.
-                Поможем определить причину неисправности
-                и выполнить необходимые работы.
+                Выездной мастер по ремонту холодильников
+                с диагностикой неисправности на дому.
+                Работаем в Мурино и ближайших районах.
             </p>
 
             <a class="button" href="https://t.me/MasterMurinoBot">
@@ -242,16 +347,78 @@
             </a>
 
         </div>
-
     </section>
 
-    <section>
 
+    <!-- ОСНОВНЫЕ УСЛУГИ -->
+
+    <section>
         <div class="container">
 
-            <h2>
-                Когда требуется ремонт холодильника
-            </h2>
+            <h2>Ремонт холодильников в Мурино</h2>
+
+            <div class="services">
+
+                <div class="service">
+                    <h3>Холодильник не морозит</h3>
+                    <p>
+                        Диагностика причин отсутствия охлаждения
+                        и устранение неисправности.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Холодильник плохо охлаждает</h3>
+                    <p>
+                        Проверка системы охлаждения и поиск
+                        причины недостаточного холода.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Холодильник не включается</h3>
+                    <p>
+                        Проверка электрики, запуска компрессора
+                        и других элементов холодильника.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Холодильник постоянно работает</h3>
+                    <p>
+                        Диагностика причин непрерывной работы
+                        компрессора и проблем с температурой.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Холодильник протекает</h3>
+                    <p>
+                        Поиск причины появления воды внутри
+                        или под холодильником.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Посторонний шум</h3>
+                    <p>
+                        Диагностика необычных звуков,
+                        вибрации и других неисправностей.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- НЕИСПРАВНОСТИ -->
+
+    <section>
+        <div class="container">
+
+            <h2>С какими неисправностями обращаются</h2>
 
             <div class="problems">
 
@@ -264,151 +431,154 @@
                 </div>
 
                 <div class="problem">
-                    Холодильник плохо охлаждает
+                    Морозильная камера не замораживает
                 </div>
 
                 <div class="problem">
-                    Холодильник работает без остановки
+                    Холодильная камера плохо охлаждает
                 </div>
 
                 <div class="problem">
-                    Появился посторонний шум
+                    Компрессор не запускается
                 </div>
 
                 <div class="problem">
-                    Под холодильником появляется вода
+                    Холодильник постоянно работает
                 </div>
 
                 <div class="problem">
-                    Сильно образуется лёд или снег
+                    Появляется вода внутри холодильника
                 </div>
 
                 <div class="problem">
-                    Холодильник отключается или не запускается
+                    Вода появляется под холодильником
+                </div>
+
+                <div class="problem">
+                    Холодильник сильно шумит
+                </div>
+
+                <div class="problem">
+                    Появился посторонний запах
                 </div>
 
             </div>
 
         </div>
-
     </section>
 
+
+    <!-- SEO-ТЕКСТ -->
+
     <section>
+        <div class="container text">
 
-        <div class="container">
-
-            <h2>
-                Ремонт холодильников в Мурино
-            </h2>
+            <h2>Ремонт холодильника на дому в Мурино</h2>
 
             <p>
-                Если холодильник перестал нормально охлаждать
-                продукты, не включается, работает постоянно
-                или появились другие признаки неисправности,
-                можно вызвать мастера на дом.
+                Если холодильник перестал морозить, плохо охлаждает,
+                не включается, постоянно работает или начал издавать
+                необычные звуки, можно вызвать мастера на дом.
             </p>
 
             <p>
-                Перед выполнением ремонта необходимо определить
-                причину неисправности. Одинаковый симптом может
-                возникать из-за разных проблем, поэтому сначала
-                проводится диагностика.
+                Выполняем диагностику и ремонт холодильников
+                в Мурино. Мастер определяет причину неисправности,
+                после чего согласовывает дальнейшие работы.
             </p>
 
             <p>
-                После определения причины неисправности
-                согласовываются дальнейшие работы.
+                Помогаем при проблемах с охлаждением, запуском
+                компрессора, температурным режимом, протечками,
+                посторонним шумом и другими неисправностями.
+            </p>
+
+            <p>
+                Работаем с выездом по Мурино и ближайшим районам.
+                Заявку можно оставить по телефону или через
+                Telegram-бот.
             </p>
 
         </div>
-
     </section>
 
-    <section>
 
+    <!-- ПОЧЕМУ МЫ -->
+
+    <section>
         <div class="container">
 
-            <h2>
-                Как происходит обращение
-            </h2>
+            <h2>Почему обращаются к нам</h2>
 
-            <div class="steps">
+            <div class="advantages">
 
-                <div class="step">
-                    <h3>1. Оставьте заявку</h3>
-                    <p>
-                        Позвоните по телефону или напишите
-                        в Telegram-бот.
-                    </p>
+                <div>
+                    <strong>Выезд в Мурино</strong><br>
+                    Мастер приезжает непосредственно к заказчику.
                 </div>
 
-                <div class="step">
-                    <h3>2. Опишите проблему</h3>
-                    <p>
-                        Расскажите, что происходит с холодильником
-                        и какие симптомы появились.
-                    </p>
+                <div>
+                    <strong>Диагностика неисправности</strong><br>
+                    Сначала определяем причину проблемы,
+                    затем согласовываем дальнейшие работы.
                 </div>
 
-                <div class="step">
-                    <h3>3. Согласуем выезд</h3>
-                    <p>
-                        Определяем удобное время для приезда
-                        мастера в Мурино.
-                    </p>
+                <div>
+                    <strong>Ремонт на дому</strong><br>
+                    Основные работы выполняются непосредственно
+                    по адресу заказчика.
                 </div>
 
-                <div class="step">
-                    <h3>4. Диагностика</h3>
-                    <p>
-                        Мастер определяет возможную причину
-                        неисправности.
-                    </p>
+                <div>
+                    <strong>Работа ежедневно</strong><br>
+                    Принимаем заявки ежедневно с 09:00 до 21:00.
                 </div>
 
             </div>
 
         </div>
-
     </section>
+
+
+    <!-- ПЕРЕХОДЫ НА ДРУГИЕ SEO-СТРАНИЦЫ -->
 
     <section>
-
         <div class="container">
 
-            <h2>
-                Мастер по ремонту холодильников в Мурино
-            </h2>
+            <h2>Другие услуги в Мурино</h2>
 
-            <p>
-                Работаем с бытовыми неисправностями холодильников
-                и другой техники. Кроме ремонта холодильников,
-                можно заказать ремонт стиральных машин, плит,
-                духовок, а также услуги электрика, сантехника
-                и мастера на час.
-            </p>
+            <div class="navigation">
 
-            <p>
-                Заявки принимаются ежедневно с 09:00 до 21:00.
-            </p>
+                <a href="https://skitalez91-beep.github.io/">
+                    Ремонт бытовой техники и мастер на час →
+                </a>
+
+                <a href="https://skitalez91-beep.github.io/remont-stiralnyh-mashin/">
+                    Ремонт стиральных машин в Мурино →
+                </a>
+
+                <a href="https://skitalez91-beep.github.io/remont-plit-duhovok/">
+                    Ремонт плит и духовок в Мурино →
+                </a>
+
+            </div>
 
         </div>
-
     </section>
+
+
+    <!-- КОНТАКТЫ -->
 
     <section class="contact">
-
         <div class="container">
 
-            <h2>
-                Вызвать мастера в Мурино
-            </h2>
+            <h2>Заказать ремонт холодильника</h2>
 
             <p>
-                Оставьте заявку по телефону или через Telegram.
+                Принимаем заявки ежедневно с 09:00 до 21:00.
             </p>
 
-            <a class="phone" href="tel:+79500091169">
+            <a class="contact-phone" href="tel:+79500091169">
                 +7 950 009-11-69
             </a>
 
@@ -417,13 +587,12 @@
             </a>
 
         </div>
-
     </section>
 
 </main>
 
-<footer>
 
+<footer>
     <div class="container">
 
         <p>
@@ -433,12 +602,6 @@
         <p>
             Ремонт холодильников и бытовой техники
             в Мурино.
-        </p>
-
-        <p>
-            <a href="https://skitalez91-beep.github.io/">
-                Главная страница
-            </a>
         </p>
 
         <p>
@@ -460,7 +623,6 @@
         </p>
 
     </div>
-
 </footer>
 
 </body>
